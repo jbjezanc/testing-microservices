@@ -47,3 +47,5 @@ Has its own database.
 
 Serves as a decentralized queue for message passing.
 Manages queues and facilitates communication between microservices.
+
+Test GitHub Action triggers
