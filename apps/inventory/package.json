@@ -1,0 +1,19 @@
+{
+  "name": "inventory",
+  "version": "1.0.0",
+  "description": "Inventory API service",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node server.js",
+    "seed": "npx sequelize-cli db:seed:all --env production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "nodemon --inspect=9229 server.js",
+    "dev": "cross-env NODE_ENV=development nodemon server.js"
+  },
+  "dependencies": {
+    "common-errors": "*",
+    "common-middleware": "*"
+  },
+  "author": "Tyler Griffiths",
+  "license": "ISC"
+}

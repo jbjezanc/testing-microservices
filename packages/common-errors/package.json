@@ -1,0 +1,14 @@
+{
+  "name": "common-errors",
+  "version": "1.0.0",
+  "description": "Common microservice errors",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Griffiths",
+  "license": "ISC"
+}

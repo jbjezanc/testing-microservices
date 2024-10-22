@@ -1,0 +1,11 @@
+{
+  "name": "payment-gateway",
+  "version": "1.0.0",
+  "description": "Demo client for a payment gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Griffiths",
+  "license": "ISC"
+}
